@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ㅋㅋ</title>
+</head>
+<body>
+    <script>
+        //하루만보를 걸으면 뱃지를 주고 아니면 분발하세요 메세지를 붖ㅁ 
+        // let walk = 9000 + 1;
+        // if(walk >= 10000){
+        //     document.write('😊');
+        // } else {
+        //     document.write('😢분발하셈');
+        // }
+
+
+        // var userName = prompt('방문자의 이름은?')
+        // if(userName){
+        //     document.write(userName + '님 방문을 환영합니다.');
+        // }else{
+        //     document.write('입력이 되지 않았습니다.')
+        // }
+
+        // let time = new Date().getHours();
+        // let greeting = '';
+        // console.log(time)
+
+        // if(time < 10) {
+        //     greeting = "좋은 아침";
+        // } else if(time < 20){
+        //     greeting = "좋은 날입니다.";
+        // } else {
+        //     greeting = "하..";
+        // }
+        // document.write('<p>' + greeting + '</p>')
+
+        //학점에 따라 별명 붙이기 
+        //조건 | 별명
+        
+        let num = 5;
+        let greeting = '';
+
+        if(num >= 4.5){
+            greeting = '별명 : 신'
+        } else if(num >= 4.2 && num <= 4.5){
+            greeting = '별명 : 교수님의 사랑'
+        } else if(num >= 3.5 && num <= 4.2){
+            greeting = '별명 : 수호자'
+        } else if(num >= 2.8 && num <= 3.5){
+            greeting = '별명 : 일반인'
+        } else if(num >= 2.3 && num <= 2.8){
+            greeting = '별명 : 소시민'
+        } else if(num >= 1.7 && num <= 2.3){
+            greeting = '별명 : 오락문화의 선구자'
+        } else {
+            greeting = '별명 : 천민'
+        } 
+
+        document.write("<p>" + greeting + "</p>")
+
+
+
+
+
+    </script>
+
+
+</body>
+</html>
